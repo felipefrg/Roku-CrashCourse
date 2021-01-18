@@ -1,7 +1,7 @@
 # This is here because this file must be larger than zero bytes.
 
 ## Channel Details
-title=Roku Lesson 1
+title=Roku Lesson 2
 major_version=1
 minor_version=0
 build_version=0
@@ -17,3 +17,5 @@ splash_screen_hd=pkg:/images/splash_hd.png
 ### Custom value, defined by you.
 custom_field=hello_world
 
+#resolution: sd, hd or fhd
+ui_resolutions=fhd
