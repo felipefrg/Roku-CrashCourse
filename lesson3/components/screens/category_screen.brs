@@ -15,4 +15,12 @@ end sub
 
 sub loadFeed(url)
  ? "loadFeed! ";url
+ m.feed_task = createObject("roSGNode", "load_feed_task")
+ m.feed_task.observeField("response", "onFeedResponse")
+ m.feed_task.url = url
+ m.feed_task.control = "RUN"
+end sub
+
+sub onFeedResponse(obj)
+ ? "onFeedResponse: "; obj.getData()
 end sub
