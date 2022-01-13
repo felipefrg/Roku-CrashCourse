@@ -16,9 +16,9 @@
       itemSize="[400,48]"
     >
 	<ContentNode id="categories" role="content">
-		<category_node feed_url="http://127.0.0.1:8888/roku_lessons/drama.json" title="DRAMA"/>
-		<category_node feed_url="http://127.0.0.1:8888/roku_lessons/comedy.json" title="COMEDY"/>
-		<category_node feed_url="http://127.0.0.1:8888/roku_lessons/horror.json" title="HORROR"/>
+		<category_node feed_url="http://192.168.15.105:8888/roku_lessons/drama.json" title="DRAMA"/>
+		<category_node feed_url="http://192.168.15.105:8888/roku_lessons/comedy.json" title="COMEDY"/>
+		<category_node feed_url="http://192.168.15.105:8888/roku_lessons/horror.json" title="HORROR"/>
 	</ContentNode>
     </RadioButtonList>
   </children>
